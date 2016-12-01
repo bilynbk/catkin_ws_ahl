@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_youbot_description")
+set(ahl_youbot_description_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_youbot_description_DEPRECATED "")
+set(ahl_youbot_description_VERSION "1.0.0")
+set(ahl_youbot_description_BUILD_DEPENDS )
+set(ahl_youbot_description_RUN_DEPENDS )
+set(ahl_youbot_description_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,30 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ahl_robot_samples" pkg="ahl_robot_samples" type="ahl_robot_samples">
+  <param name="show_target" type="bool" value="True" />
+  <param name="sin_x" type="bool" value="False" />
+  <param name="sin_y" type="bool" value="False" />
+  <param name="sin_z" type="bool" value="False" />
+  <param name="x_arm" type="double" value="0.5" />
+  <param name="y_arm" type="double" value="0.0" />
+  <param name="z_arm" type="double" value="0.07" />
+  <param name="roll_arm" type="double" value="0.0" />
+  <param name="pitch_arm" type="double" value="3.14" />
+  <param name="yaw_arm" type="double" value="0.0" />
+  <param name="x_base" type="double" value="0.4" />
+  <param name="y_base" type="double" value="0.2" />
+  <param name="z_base" type="double" value="0.4" />
+  <param name="roll_base" type="double" value="0.0" />
+  <param name="pitch_base" type="double" value="0.0" />
+  <param name="yaw_base" type="double" value="0.0" />
+  <param name="q_base1" type="double" value="0.0" />
+  <param name="q_base2" type="double" value="0.0" />
+  <param name="q_base3" type="double" value="0.0" />
+  <param name="q1" type="double" value="0.0" />
+  <param name="q2" type="double" value="0.5" />
+  <param name="q3" type="double" value="0.5" />
+  <param name="q4" type="double" value="0.5" />
+  <param name="q5" type="double" value="0.0" />
+</node>
+\endverbatim
+

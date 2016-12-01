@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_digital_filter")
+set(ahl_digital_filter_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_digital_filter_DEPRECATED "")
+set(ahl_digital_filter_VERSION "1.0.0")
+set(ahl_digital_filter_BUILD_DEPENDS "cmake_modules" "roscpp")
+set(ahl_digital_filter_RUN_DEPENDS "cmake_modules" "roscpp")
+set(ahl_digital_filter_BUILDTOOL_DEPENDS "catkin")

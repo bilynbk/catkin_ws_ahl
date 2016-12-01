@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/devel
+
+Name: ahl_robot
+Description: Description of ahl_robot
+Version: 1.0.0
+Cflags: -I/home/bilynbk/catkin_ws_ahl/src/ahl_ros_packages/ahl_wbc/wbc/ahl_robot/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/devel/lib -lahl_robot
+Requires: ahl_digital_filter ahl_utils cmake_modules roscpp tf2 tf2_ros

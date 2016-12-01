@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_lwr_server")
+set(ahl_lwr_server_MAINTAINER "daichi <daichi.yoshikawa@gmail.com>")
+set(ahl_lwr_server_DEPRECATED "")
+set(ahl_lwr_server_VERSION "1.0.0")
+set(ahl_lwr_server_BUILD_DEPENDS "ahl_gazebo_interface" "ahl_robot" "ahl_robot_controller" "cmake_modules" "gazebo_msgs" "geometry_msgs" "roscpp" "tf2")
+set(ahl_lwr_server_RUN_DEPENDS "ahl_gazebo_interface" "ahl_robot" "ahl_robot_controller" "cmake_modules" "gazebo_msgs" "geometry_msgs" "roscpp" "tf2")
+set(ahl_lwr_server_BUILDTOOL_DEPENDS "catkin")

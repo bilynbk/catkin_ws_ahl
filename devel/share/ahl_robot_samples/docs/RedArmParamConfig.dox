@@ -1,0 +1,22 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~show_target" : \b [bool] Show reference position min: False, default: True, max: True
+- \b "~sin_x" : \b [bool] desired x sin wave min: False, default: False, max: True
+- \b "~sin_y" : \b [bool] desired y sin wave min: False, default: False, max: True
+- \b "~sin_z" : \b [bool] desired z sin wave min: False, default: False, max: True
+- \b "~x_arm" : \b [double] desired x for gripper min: -3.0, default: 0.42, max: 3.0
+- \b "~y_arm" : \b [double] desired y for gripper min: -3.0, default: 0.24, max: 3.0
+- \b "~z_arm" : \b [double] desired z for gripper min: 0.0, default: 0.36, max: 1.0
+- \b "~roll_arm" : \b [double] desired roll  for gripper min: -3.14, default: 0.0, max: 3.14
+- \b "~pitch_arm" : \b [double] desired pitch for gripper min: -3.14, default: 3.14, max: 3.14
+- \b "~yaw_arm" : \b [double] desired yaw   for gripper min: -3.14, default: 0.0, max: 3.14
+- \b "~q1" : \b [double] angle of arm joint1 min: -3.14, default: 0.0, max: 3.14
+- \b "~q2" : \b [double] angle of arm joint2 min: -3.14, default: 0.5, max: 3.14
+- \b "~q3" : \b [double] angle of arm joint3 min: -3.14, default: 0.0, max: 3.14
+- \b "~q4" : \b [double] angle of arm joint4 min: -3.14, default: -0.5, max: 3.14
+- \b "~q5" : \b [double] angle of arm joint5 min: -3.14, default: 0.0, max: 3.14
+- \b "~q6" : \b [double] angle of arm joint5 min: -3.14, default: 0.5, max: 3.14
+- \b "~q7" : \b [double] angle of arm joint5 min: -3.14, default: 0.0, max: 3.14
+

@@ -1,0 +1,31 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~kp_joint" : \b [double] Gain for position min: 0.0, default: 1.0, max: 500.0
+- \b "~kv_joint" : \b [double] Gain for velocity min: 0.0, default: 0.2, max: 500.0
+- \b "~kp_joint_macro" : \b [double] Gain for position min: 0.0, default: 1.0, max: 500.0
+- \b "~kv_joint_macro" : \b [double] Gain for velocity min: 0.0, default: 0.3, max: 500.0
+- \b "~kp_task_pos" : \b [double] Gain for position min: 0.0, default: 18.0, max: 500.0
+- \b "~ki_task_pos" : \b [double] Gain for position min: 0.0, default: 0.0, max: 500.0
+- \b "~kv_task_pos" : \b [double] Gain for velocity min: 0.0, default: 5.0, max: 500.0
+- \b "~kp_task_ori" : \b [double] Gain for position min: 0.0, default: 180.0, max: 500.0
+- \b "~ki_task_ori" : \b [double] Gain for position min: 0.0, default: 0.0, max: 500.0
+- \b "~kv_task_ori" : \b [double] Gain for velocity min: 0.0, default: 2.0, max: 500.0
+- \b "~i_clipping_task_pos" : \b [double] Gain for velocity min: 0.0, default: 10.0, max: 1000.0
+- \b "~i_clipping_task_ori" : \b [double] Gain for velocity min: 0.0, default: 10.0, max: 1000.0
+- \b "~kv_damp" : \b [double] Gain for damping min: 0.0, default: 3.0, max: 200.0
+- \b "~kp_limit" : \b [double] Position gain for joint limit min: 0.0, default: 5.0, max: 500.0
+- \b "~kv_limit" : \b [double] Velocity gain for joint limit min: 0.0, default: 2.0, max: 500.0
+- \b "~joint_error_max" : \b [double] Max value of position error in task space min: 0.0, default: 0.5, max: 3.14
+- \b "~pos_error_max" : \b [double] Max value of position error in task space min: 0.0, default: 0.2, max: 10.0
+- \b "~ori_error_max" : \b [double] Max value of orientation error in task space min: 0.0, default: 1.57, max: 10.0
+- \b "~dq_max" : \b [double] Maximum joint velocity min: 0.0, default: 1.0, max: 3.14
+- \b "~vx_max" : \b [double] Maximum velocity of position control in task space min: 0.0, default: 1.0, max: 10.0
+- \b "~gx" : \b [double] Gravity acceleration along x min: -10.0, default: 0.0, max: 10.0
+- \b "~gy" : \b [double] Gravity acceleration along y min: -10.0, default: 0.0, max: 10.0
+- \b "~gz" : \b [double] Gravity acceleration along z min: -10.0, default: -0.98, max: 0.0
+- \b "~kp_wheel" : \b [double] Position gain for joint limit min: 0.0, default: 0.1, max: 30.0
+- \b "~kv_wheel" : \b [double] Velocity gain for joint limit min: 0.0, default: 0.1, max: 30.0
+- \b "~b" : \b [double] Velocity gain for joint limit min: 0.0, default: 0.0, max: 30.0
+

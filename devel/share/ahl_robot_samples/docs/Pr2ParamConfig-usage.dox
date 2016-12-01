@@ -1,0 +1,67 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ahl_robot_samples" pkg="ahl_robot_samples" type="ahl_robot_samples">
+  <param name="show_target" type="bool" value="True" />
+  <param name="sin_x_l" type="bool" value="False" />
+  <param name="sin_y_l" type="bool" value="False" />
+  <param name="sin_z_l" type="bool" value="False" />
+  <param name="sin_x_r" type="bool" value="False" />
+  <param name="sin_y_r" type="bool" value="False" />
+  <param name="sin_z_r" type="bool" value="False" />
+  <param name="x_l" type="double" value="0.6" />
+  <param name="y_l" type="double" value="0.3" />
+  <param name="z_l" type="double" value="0.6" />
+  <param name="roll_l" type="double" value="0.0" />
+  <param name="pitch_l" type="double" value="0.0" />
+  <param name="yaw_l" type="double" value="0.0" />
+  <param name="x_r" type="double" value="0.6" />
+  <param name="y_r" type="double" value="-0.3" />
+  <param name="z_r" type="double" value="0.6" />
+  <param name="roll_r" type="double" value="0.0" />
+  <param name="pitch_r" type="double" value="0.0" />
+  <param name="yaw_r" type="double" value="0.0" />
+  <param name="Rf_roll_l" type="double" value="0.0" />
+  <param name="Rf_pitch_l" type="double" value="0.0" />
+  <param name="Rf_yaw_l" type="double" value="0.0" />
+  <param name="Rm_roll_l" type="double" value="0.0" />
+  <param name="Rm_pitch_l" type="double" value="0.0" />
+  <param name="Rm_yaw_l" type="double" value="0.0" />
+  <param name="fx_l" type="double" value="0.0" />
+  <param name="fy_l" type="double" value="0.0" />
+  <param name="fz_l" type="double" value="0.0" />
+  <param name="mx_l" type="double" value="0.0" />
+  <param name="my_l" type="double" value="0.0" />
+  <param name="mz_l" type="double" value="0.0" />
+  <param name="Rf_roll_r" type="double" value="0.0" />
+  <param name="Rf_pitch_r" type="double" value="0.0" />
+  <param name="Rf_yaw_r" type="double" value="0.0" />
+  <param name="Rm_roll_r" type="double" value="0.0" />
+  <param name="Rm_pitch_r" type="double" value="0.0" />
+  <param name="Rm_yaw_r" type="double" value="0.0" />
+  <param name="fx_r" type="double" value="0.0" />
+  <param name="fy_r" type="double" value="0.0" />
+  <param name="fz_r" type="double" value="0.0" />
+  <param name="mx_r" type="double" value="0.0" />
+  <param name="my_r" type="double" value="0.0" />
+  <param name="mz_r" type="double" value="0.0" />
+  <param name="q_base1" type="double" value="0.0" />
+  <param name="q_base2" type="double" value="0.0" />
+  <param name="q_base3" type="double" value="0.0" />
+  <param name="q_base4" type="double" value="0.15" />
+  <param name="q_l1" type="double" value="0.75" />
+  <param name="q_l2" type="double" value="0.4" />
+  <param name="q_l3" type="double" value="1.55" />
+  <param name="q_l4" type="double" value="-1.15" />
+  <param name="q_l5" type="double" value="0.0" />
+  <param name="q_l6" type="double" value="-1.05" />
+  <param name="q_l7" type="double" value="0.0" />
+  <param name="q_r1" type="double" value="-0.75" />
+  <param name="q_r2" type="double" value="0.4" />
+  <param name="q_r3" type="double" value="-1.55" />
+  <param name="q_r4" type="double" value="-1.15" />
+  <param name="q_r5" type="double" value="0.0" />
+  <param name="q_r6" type="double" value="-1.05" />
+  <param name="q_r7" type="double" value="0.0" />
+</node>
+\endverbatim
+

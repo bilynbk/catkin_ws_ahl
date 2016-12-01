@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_robot_samples")
+set(ahl_robot_samples_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_robot_samples_DEPRECATED "")
+set(ahl_robot_samples_VERSION "1.0.0")
+set(ahl_robot_samples_BUILD_DEPENDS "ahl_gazebo_interface" "ahl_robot" "ahl_robot_controller" "ahl_utils" "cmake_modules" "dynamic_reconfigure" "gazebo_msgs" "roscpp" "rospy" "visualization_msgs")
+set(ahl_robot_samples_RUN_DEPENDS "ahl_gazebo_interface" "ahl_robot" "ahl_robot_controller" "ahl_utils" "cmake_modules" "dynamic_reconfigure" "gazebo_msgs" "roscpp" "rospy" "visualization_msgs")
+set(ahl_robot_samples_BUILDTOOL_DEPENDS "catkin")

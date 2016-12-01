@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_gazebo_interface")
+set(ahl_gazebo_interface_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_gazebo_interface_DEPRECATED "")
+set(ahl_gazebo_interface_VERSION "1.0.0")
+set(ahl_gazebo_interface_BUILD_DEPENDS "ahl_utils" "cmake_modules" "gazebo_msgs" "roscpp")
+set(ahl_gazebo_interface_RUN_DEPENDS "ahl_utils" "cmake_modules" "gazebo_msgs" "roscpp")
+set(ahl_gazebo_interface_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/devel
+
+Name: ahl_gazebo_interface
+Description: Description of ahl_gazebo_interface
+Version: 1.0.0
+Cflags: -I/home/bilynbk/catkin_ws_ahl/src/ahl_ros_packages/ahl_common/ahl_gazebo_interface/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/devel/lib -lahl_gazebo_interface
+Requires: ahl_utils gazebo_msgs roscpp

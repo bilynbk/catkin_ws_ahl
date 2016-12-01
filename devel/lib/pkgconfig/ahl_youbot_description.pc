@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/devel
+
+Name: ahl_youbot_description
+Description: Description of ahl_youbot_description
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/bilynbk/catkin_ws_ahl/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/install
+
+Name: ahl_pr2_description
+Description: Description of ahl_pr2_description
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/bilynbk/catkin_ws_ahl/install/lib 
+Requires: 

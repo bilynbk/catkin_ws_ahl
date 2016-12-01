@@ -1,0 +1,32 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ahl_robot_controller" pkg="ahl_robot_controller" type="ahl_robot_controller">
+  <param name="kp_joint" type="double" value="1.0" />
+  <param name="kv_joint" type="double" value="0.2" />
+  <param name="kp_joint_macro" type="double" value="1.0" />
+  <param name="kv_joint_macro" type="double" value="0.3" />
+  <param name="kp_task_pos" type="double" value="18.0" />
+  <param name="ki_task_pos" type="double" value="0.0" />
+  <param name="kv_task_pos" type="double" value="5.0" />
+  <param name="kp_task_ori" type="double" value="180.0" />
+  <param name="ki_task_ori" type="double" value="0.0" />
+  <param name="kv_task_ori" type="double" value="2.0" />
+  <param name="i_clipping_task_pos" type="double" value="10.0" />
+  <param name="i_clipping_task_ori" type="double" value="10.0" />
+  <param name="kv_damp" type="double" value="3.0" />
+  <param name="kp_limit" type="double" value="5.0" />
+  <param name="kv_limit" type="double" value="2.0" />
+  <param name="joint_error_max" type="double" value="0.5" />
+  <param name="pos_error_max" type="double" value="0.2" />
+  <param name="ori_error_max" type="double" value="1.57" />
+  <param name="dq_max" type="double" value="1.0" />
+  <param name="vx_max" type="double" value="1.0" />
+  <param name="gx" type="double" value="0.0" />
+  <param name="gy" type="double" value="0.0" />
+  <param name="gz" type="double" value="-0.98" />
+  <param name="kp_wheel" type="double" value="0.1" />
+  <param name="kv_wheel" type="double" value="0.1" />
+  <param name="b" type="double" value="0.0" />
+</node>
+\endverbatim
+

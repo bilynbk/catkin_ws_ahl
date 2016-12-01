@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_red_arm_description")
+set(ahl_red_arm_description_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_red_arm_description_DEPRECATED "")
+set(ahl_red_arm_description_VERSION "0.0.0")
+set(ahl_red_arm_description_BUILD_DEPENDS )
+set(ahl_red_arm_description_RUN_DEPENDS )
+set(ahl_red_arm_description_BUILDTOOL_DEPENDS "catkin")

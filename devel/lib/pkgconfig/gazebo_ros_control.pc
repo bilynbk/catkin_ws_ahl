@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/devel
+
+Name: gazebo_ros_control
+Description: Description of gazebo_ros_control
+Version: 2.4.7
+Cflags: -I/home/bilynbk/catkin_ws_ahl/src/ahl_ros_packages/existing_packages/gazebo_ros_pkgs/gazebo_ros_control/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/devel/lib -lgazebo_ros_control -ldefault_robot_hw_sim
+Requires: roscpp controller_manager pluginlib transmission_interface

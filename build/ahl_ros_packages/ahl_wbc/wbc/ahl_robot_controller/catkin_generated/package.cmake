@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_robot_controller")
+set(ahl_robot_controller_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_robot_controller_DEPRECATED "")
+set(ahl_robot_controller_VERSION "1.0.0")
+set(ahl_robot_controller_BUILD_DEPENDS "ahl_digital_filter" "ahl_robot" "ahl_utils" "cmake_modules" "dynamic_reconfigure" "gazebo_msgs" "roscpp" "rospy")
+set(ahl_robot_controller_RUN_DEPENDS "ahl_digital_filter" "ahl_robot" "ahl_utils" "cmake_modules" "dynamic_reconfigure" "gazebo_msgs" "roscpp" "rospy")
+set(ahl_robot_controller_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/devel
+
+Name: ahl_lwr_server
+Description: Description of ahl_lwr_server
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/bilynbk/catkin_ws_ahl/devel/lib 
+Requires: ahl_gazebo_interface ahl_robot ahl_robot_controller cmake_modules gazebo_msgs geometry_msgs roscpp tf2

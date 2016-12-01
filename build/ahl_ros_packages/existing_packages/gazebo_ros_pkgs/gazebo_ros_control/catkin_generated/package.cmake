@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gazebo_ros_control")
+set(gazebo_ros_control_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>, Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>")
+set(gazebo_ros_control_DEPRECATED "")
+set(gazebo_ros_control_VERSION "2.4.7")
+set(gazebo_ros_control_BUILD_DEPENDS "roscpp" "gazebo" "control_toolbox" "controller_manager" "pluginlib" "transmission_interface" "joint_limits_interface" "urdf" "angles")
+set(gazebo_ros_control_RUN_DEPENDS "roscpp" "gazebo" "gazebo_ros" "control_toolbox" "controller_manager" "pluginlib" "transmission_interface" "urdf" "angles")
+set(gazebo_ros_control_BUILDTOOL_DEPENDS "catkin")

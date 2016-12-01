@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/install
+
+Name: ahl_robot_controller
+Description: Description of ahl_robot_controller
+Version: 1.0.0
+Cflags: -I/home/bilynbk/catkin_ws_ahl/install/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/install/lib -lahl_robot_controller
+Requires: ahl_digital_filter ahl_robot ahl_utils dynamic_reconfigure gazebo_msgs roscpp rospy

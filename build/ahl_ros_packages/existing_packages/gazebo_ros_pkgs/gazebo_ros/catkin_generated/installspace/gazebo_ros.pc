@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/install
+
+Name: gazebo_ros
+Description: Description of gazebo_ros
+Version: 2.4.7
+Cflags: -I/home/bilynbk/catkin_ws_ahl/install/include -I/usr/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/install/lib -lgazebo_ros_api_plugin -lgazebo_ros_paths_plugin -l:/usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: ahl_utils roslib roscpp geometry_msgs std_srvs tf rosgraph_msgs dynamic_reconfigure message_generation std_msgs gazebo_msgs

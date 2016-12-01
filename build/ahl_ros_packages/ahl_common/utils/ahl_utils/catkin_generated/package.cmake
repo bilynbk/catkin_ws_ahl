@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_utils")
+set(ahl_utils_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_utils_DEPRECATED "")
+set(ahl_utils_VERSION "1.0.0")
+set(ahl_utils_BUILD_DEPENDS "cmake_modules" "roscpp" "yaml-cpp")
+set(ahl_utils_RUN_DEPENDS "cmake_modules" "roscpp" "yaml-cpp")
+set(ahl_utils_BUILDTOOL_DEPENDS "catkin")

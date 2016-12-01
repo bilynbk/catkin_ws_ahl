@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/devel
+
+Name: ahl_utils
+Description: Description of ahl_utils
+Version: 1.0.0
+Cflags: -I/home/bilynbk/catkin_ws_ahl/src/ahl_ros_packages/ahl_common/utils/ahl_utils/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/devel/lib -lahl_utils
+Requires: cmake_modules roscpp

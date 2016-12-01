@@ -1,0 +1,66 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~show_target" : \b [bool] Show reference position min: False, default: True, max: True
+- \b "~sin_x_l" : \b [bool] desired x sin wave min: False, default: False, max: True
+- \b "~sin_y_l" : \b [bool] desired y sin wave min: False, default: False, max: True
+- \b "~sin_z_l" : \b [bool] desired z sin wave min: False, default: False, max: True
+- \b "~sin_x_r" : \b [bool] desired x sin wave min: False, default: False, max: True
+- \b "~sin_y_r" : \b [bool] desired y sin wave min: False, default: False, max: True
+- \b "~sin_z_r" : \b [bool] desired z sin wave min: False, default: False, max: True
+- \b "~x_l" : \b [double] desired x for left hand min: -3.0, default: 0.6, max: 3.0
+- \b "~y_l" : \b [double] desired y for left hand min: -3.0, default: 0.3, max: 3.0
+- \b "~z_l" : \b [double] desired z for left hand min: 0.0, default: 0.6, max: 3.0
+- \b "~roll_l" : \b [double] desired roll  for left hand min: -3.14, default: 0.0, max: 3.14
+- \b "~pitch_l" : \b [double] desired pitch for left hand min: -3.14, default: 0.0, max: 3.14
+- \b "~yaw_l" : \b [double] desired yaw   for left hand min: -3.14, default: 0.0, max: 3.14
+- \b "~x_r" : \b [double] desired x for right hand min: -3.0, default: 0.6, max: 3.0
+- \b "~y_r" : \b [double] desired y for right hand min: -3.0, default: -0.3, max: 3.0
+- \b "~z_r" : \b [double] desired z for right hand min: 0.0, default: 0.6, max: 3.0
+- \b "~roll_r" : \b [double] desired roll  for right hand min: -3.14, default: 0.0, max: 3.14
+- \b "~pitch_r" : \b [double] desired pitch for right hand min: -3.14, default: 0.0, max: 3.14
+- \b "~yaw_r" : \b [double] desired yaw   for right hand min: -3.14, default: 0.0, max: 3.14
+- \b "~Rf_roll_l" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rf_pitch_l" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rf_yaw_l" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rm_roll_l" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rm_pitch_l" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rm_yaw_l" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~fx_l" : \b [double] desired force for left hand min: -20.0, default: 0.0, max: 20.0
+- \b "~fy_l" : \b [double] desired force for left hand min: -20.0, default: 0.0, max: 20.0
+- \b "~fz_l" : \b [double] desired force for left hand min: -20.0, default: 0.0, max: 20.0
+- \b "~mx_l" : \b [double] desired moment for left hand min: -10.0, default: 0.0, max: 10.0
+- \b "~my_l" : \b [double] desired moment for left hand min: -10.0, default: 0.0, max: 10.0
+- \b "~mz_l" : \b [double] desired moment for left hand min: -10.0, default: 0.0, max: 10.0
+- \b "~Rf_roll_r" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rf_pitch_r" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rf_yaw_r" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rm_roll_r" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rm_pitch_r" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~Rm_yaw_r" : \b [double] roll angle of force control min: -3.14, default: 0.0, max: 3.14
+- \b "~fx_r" : \b [double] desired force for right hand min: -20.0, default: 0.0, max: 20.0
+- \b "~fy_r" : \b [double] desired force for right hand min: -20.0, default: 0.0, max: 20.0
+- \b "~fz_r" : \b [double] desired force for right hand min: -20.0, default: 0.0, max: 20.0
+- \b "~mx_r" : \b [double] desired moment for right hand min: -10.0, default: 0.0, max: 10.0
+- \b "~my_r" : \b [double] desired moment for right hand min: -10.0, default: 0.0, max: 10.0
+- \b "~mz_r" : \b [double] desired moment for right hand min: -10.0, default: 0.0, max: 10.0
+- \b "~q_base1" : \b [double] displacement of base along x axis min: -3.0, default: 0.0, max: 3.0
+- \b "~q_base2" : \b [double] displacement of base along y axis min: -3.0, default: 0.0, max: 3.0
+- \b "~q_base3" : \b [double] orientation of base min: -3.1, default: 0.0, max: 3.1
+- \b "~q_base4" : \b [double] displacement of torso min: 0.0, default: 0.15, max: 0.3
+- \b "~q_l1" : \b [double] angle of left shoulder pan min: -0.7, default: 0.75, max: 2.2
+- \b "~q_l2" : \b [double] angle of left shoulder lift min: -0.5, default: 0.4, max: 1.3
+- \b "~q_l3" : \b [double] angle of left upper arm min: -0.8, default: 1.55, max: 3.9
+- \b "~q_l4" : \b [double] angle of left elbow min: -2.3, default: -1.15, max: 0.0
+- \b "~q_l5" : \b [double] angle of left forearm min: -3.1, default: 0.0, max: 3.1
+- \b "~q_l6" : \b [double] angle of left wrist flex min: -2.1, default: -1.05, max: 0.0
+- \b "~q_l7" : \b [double] angle of left wrist roll min: -3.1, default: 0.0, max: 3.1
+- \b "~q_r1" : \b [double] angle of right shoulder pan min: -2.2, default: -0.75, max: 0.7
+- \b "~q_r2" : \b [double] angle of right shoulder lift min: -0.5, default: 0.4, max: 1.3
+- \b "~q_r3" : \b [double] angle of right upper arm min: -3.9, default: -1.55, max: 0.8
+- \b "~q_r4" : \b [double] angle of right elbow min: -2.3, default: -1.15, max: 0.0
+- \b "~q_r5" : \b [double] angle of right forearm min: -3.1, default: 0.0, max: 3.1
+- \b "~q_r6" : \b [double] angle of right wrist flex min: -2.1, default: -1.05, max: 0.0
+- \b "~q_r7" : \b [double] angle of right wrist roll min: -3.1, default: 0.0, max: 3.1
+

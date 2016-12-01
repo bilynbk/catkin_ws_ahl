@@ -1,0 +1,8 @@
+prefix=/home/bilynbk/catkin_ws_ahl/install
+
+Name: cv_wrapper
+Description: Description of cv_wrapper
+Version: 1.0.0
+Cflags: -I/home/bilynbk/catkin_ws_ahl/install/include
+Libs: -L/home/bilynbk/catkin_ws_ahl/install/lib -lcv_wrapper
+Requires: cv_bridge image_transport message_filters roscpp std_srvs

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_robot")
+set(ahl_robot_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_robot_DEPRECATED "")
+set(ahl_robot_VERSION "1.0.0")
+set(ahl_robot_BUILD_DEPENDS "ahl_digital_filter" "ahl_utils" "cmake_modules" "roscpp" "tf2" "tf2_ros" "yaml-cpp")
+set(ahl_robot_RUN_DEPENDS "ahl_digital_filter" "ahl_utils" "cmake_modules" "roscpp" "tf2" "tf2_ros" "yaml-cpp")
+set(ahl_robot_BUILDTOOL_DEPENDS "catkin")

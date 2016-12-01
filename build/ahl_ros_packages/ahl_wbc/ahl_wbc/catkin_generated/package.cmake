@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ahl_wbc")
+set(ahl_wbc_MAINTAINER "Daichi Yoshikawa <daichi.yoshikawa@gmail.com>")
+set(ahl_wbc_DEPRECATED "")
+set(ahl_wbc_VERSION "1.0.0")
+set(ahl_wbc_BUILD_DEPENDS )
+set(ahl_wbc_RUN_DEPENDS "ahl_common" "ahl_filter" "ahl_gazebo_interface" "ahl_utils" "ahl_robot" "ahl_robot_controller")
+set(ahl_wbc_BUILDTOOL_DEPENDS "catkin")
